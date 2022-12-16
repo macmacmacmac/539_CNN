@@ -1,11 +1,16 @@
-# 539_CNN Spectrogram Squad----Classifying Music Genre with CNN
-### you will need to pip these if you dont already have them on top of the common ML stuff
+# 539_CNN Spectrogram Squad
+## Classifying Music Genre with CNN
 
-### pip install tensorflow-datasets
+### Pip commands required for script to run correctly:
 
-### you will also need the dependencies for the VGGish
-### most of these should already be included but you will need the h5 files for the VGGish model 
-### you can find them here https://drive.google.com/file/d/16JrWEedwaZFVZYvn1woPKCuWx85Ghzkp/view
+pip install tensorflow-datasets
 
-### lastly is the dependencies for tf.keras.utils.plot_model
-### not mandatory so just delete if you dont care
+### Dependencies of VGGish required for model
+### Most of these should already be included but you will need the h5 files for the VGGish model 
+### you can find them here:
+
+https://drive.google.com/file/d/16JrWEedwaZFVZYvn1woPKCuWx85Ghzkp/view
+
+### Lastly is the dependencies for tf.keras.utils.plot_model
+
+Only for visual and analyzation of data, but can be removed if needed.
